@@ -1,0 +1,8 @@
+pymongo
+dnspython
+sqlalchemy
+scikit-learn
+seaborn
+pandas
+matplotlib
+numpy
