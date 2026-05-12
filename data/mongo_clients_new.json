@@ -1,0 +1,58 @@
+[
+  {
+    "reservation_sql_id": 9001,
+    "hotel": { "type": "Resort Hotel" },
+    "customer": { "type": "Generic Customer", "country": "PRT" },
+    "booking_info": {
+      "lead_time": 342, "adr": 0.0, "status": "Unknown",
+      "deposit_type": "No Deposit",
+      "previous_cancellations": 0,
+      "total_special_requests": 0,
+      "stays_weekend": 0, "stays_weekday": 0,
+      "guests": { "adults": 2, "children": 0, "babies": 0 }
+    },
+    "tags": ["Early Bird", "Free Stay"]
+  },
+  {
+    "reservation_sql_id": 9002,
+    "hotel": { "type": "City Hotel" },
+    "customer": { "type": "Generic Customer", "country": "GBR" },
+    "booking_info": {
+      "lead_time": 10, "adr": 120.0, "status": "Unknown",
+      "deposit_type": "No Deposit",
+      "previous_cancellations": 0,
+      "total_special_requests": 2,
+      "stays_weekend": 1, "stays_weekday": 2,
+      "guests": { "adults": 1, "children": 0, "babies": 0 }
+    },
+    "tags": ["Weekend Stay"]
+  },
+  {
+    "reservation_sql_id": 9003,
+    "hotel": { "type": "City Hotel" },
+    "customer": { "type": "Contract", "country": "ESP" },
+    "booking_info": {
+      "lead_time": 180, "adr": 85.0, "status": "Unknown",
+      "deposit_type": "Non Refund",
+      "previous_cancellations": 0,
+      "total_special_requests": 1,
+      "stays_weekend": 2, "stays_weekday": 5,
+      "guests": { "adults": 3, "children": 1, "babies": 0 }
+    },
+    "tags": ["Early Bird", "Family", "Group"]
+  },
+  {
+    "reservation_sql_id": 9004,
+    "hotel": { "type": "Resort Hotel" },
+    "customer": { "type": "Transient", "country": "USA" },
+    "booking_info": {
+      "lead_time": 5, "adr": 250.0, "status": "Unknown",
+      "deposit_type": "Non Refund",
+      "previous_cancellations": 3,
+      "total_special_requests": 0,
+      "stays_weekend": 1, "stays_weekday": 1,
+      "guests": { "adults": 2, "children": 0, "babies": 0 }
+    },
+    "tags": ["Weekend Stay"]
+  }
+]
